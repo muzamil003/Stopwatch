@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="timer">
+            <p>
+                <span class="time" id="mint" >05</span>
+                <span class="time" id="sec">00</span>
+                <span class="time" id="msec">00</span>
+            </p>
+        </div>
+        <div class="p" id="your">
+            <h3>Your Time Start Now
+            </h3>
+        </div>
+
+        <div class="btn" >
+            <button class="btns" onclick="starter()" ><i class="fa-solid fa-circle-play"></i>Start</button>
+            <button class="btns" onclick="stop()"><i class="fa-solid fa-stop"></i>Stop</button>
+            <button class="btns" onclick="reset()"><i class="fa-solid fa-arrows-rotate"></i>Reset</button>
+        </div>
+
+
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
